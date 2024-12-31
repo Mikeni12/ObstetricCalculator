@@ -1,0 +1,65 @@
+<resources>
+    <!-- Titles -->
+    <string name="app_name">Obstetric Calculator</string>
+    <string name="calculate_sdg_by_fum">Calculate SDG by FUM</string>
+    <string name="calculate_sdg_by_usg">Calculate SDG by USG</string>
+    <string name="calculate_sdg_by_capurro">Calculate SDG by Capurro</string>
+    <string name="calculate_bishop_score">Calculate Bishop index</string>
+    <string name="sdg_by_fum_calculator_title">SDG by FUM calculator</string>
+    <string name="sdg_by_usg_calculator_title">SDG by USG calculator</string>
+    <string name="bishop_score_calculator_title">Bishop Index</string>
+
+    <!-- Generic Labels -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="coming_soon">Coming soon…</string>
+
+    <!-- SDG Labels -->
+    <string name="days">Days</string>
+    <string name="weeks">Weeks</string>
+    <string name="date">Date</string>
+    <string name="date_placeholder">MM/DD/YYYY</string>
+    <string name="select_date">Select date</string>
+    <string name="estimated_date_of_delivery">Estimated date of delivery: %s</string>
+    <string name="total_weeks">Total weeks: %1$s.%2$s</string>
+
+    <!-- Bishop Labels -->
+    <string name="total_bishop_score">Total Bishop Score: %s</string>
+    <string name="dilation_bishop_label">Cervical dilation (cm)</string>
+    <string-array name="dilation_bishop_options">
+        <item>Closed</item>
+        <item>1–2 cm</item>
+        <item>3–4 cm</item>
+        <item>5+ cm</item>
+    </string-array>
+    <string name="effacement_bishop_label">Cervical effacement (%)</string>
+    <string-array name="effacement_bishop_options" translatable="false">
+        <item>0%-30%</item>
+        <item>40%-50%</item>
+        <item>60%-70%</item>
+        <item>80+%</item>
+    </string-array>
+    <string name="consistency_bishop_label">Cervical consistency</string>
+    <string-array name="consistency_bishop_options">
+        <item>Firm</item>
+        <item>Middle</item>
+        <item>Soft</item>
+    </string-array>
+    <string name="position_bishop_label">Cervical position</string>
+    <string-array name="position_bishop_options">
+        <item>Posterior</item>
+        <item>Middle</item>
+        <item>Anterior</item>
+    </string-array>
+    <string name="station_bishop_label">Fetal station</string>
+    <string-array name="station_bishop_options" translatable="false">
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>+1</item>
+    </string-array>
+    <string name="bishop_score_interpretation">Interpretation:</string>
+    <string name="bishop_score_interpretation_low">Score of 5 or less: Indicates that the cervix is unfavorable, and induction is less likely to be successful. In these cases, cervical ripening methods may be used before induction to increase the chances of a successful vaginal delivery.</string>
+    <string name="bishop_score_interpretation_medium">Score of 6–8: Suggests that the cervix is somewhat favorable, and induction may be successful.</string>
+    <string name="bishop_score_interpretation_high">Score of 9 or more: Indicates that the cervix is favorable for induction and vaginal delivery is likely.</string>
+</resources>

@@ -1,0 +1,53 @@
+<resources>
+    <!-- Titles -->
+    <string name="app_name">Calculadora Obstétrica</string>
+    <string name="calculate_sdg_by_fum">Calcular SDG por FUM</string>
+    <string name="calculate_sdg_by_usg">Calcular SDG por USG</string>
+    <string name="calculate_sdg_by_capurro">Calcular SDG por Capurro</string>
+    <string name="calculate_bishop_score">Calcular índice de Bishop</string>
+    <string name="sdg_by_fum_calculator_title">Calculador SDG por FUM</string>
+    <string name="sdg_by_usg_calculator_title">Calculador SDG por USG</string>
+    <string name="bishop_score_calculator_title">Índice de Bishop</string>
+
+    <!-- Generic Labels -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="coming_soon">Próximamente…</string>
+
+    <!-- SDG labels -->
+    <string name="days">Días</string>
+    <string name="weeks">Semanas</string>
+    <string name="date">Fecha</string>
+    <string name="date_placeholder">MM/DD/AAAA</string>
+    <string name="select_date">Selecciona una fecha</string>
+    <string name="estimated_date_of_delivery">Fecha probable de parto: %s</string>
+    <string name="total_weeks">Semanas totales: %1$s.%2$s</string>
+
+    <!-- Bishop Labels -->
+    <string name="total_bishop_score">Puntuación total de Bishop: %s</string>
+    <string name="dilation_bishop_label">Dilatación (cm)</string>
+    <string-array name="dilation_bishop_options">
+        <item>Cerrado</item>
+        <item>1–2 cm</item>
+        <item>3–4 cm</item>
+        <item>5+ cm</item>
+    </string-array>
+    <string name="effacement_bishop_label">Borramiento (%)</string>
+    <string name="consistency_bishop_label">Consistencia</string>
+    <string-array name="consistency_bishop_options">
+        <item>Firme</item>
+        <item>Media</item>
+        <item>Blanda</item>
+    </string-array>
+    <string name="position_bishop_label">Posición</string>
+    <string-array name="position_bishop_options">
+        <item>Posterior</item>
+        <item>Medio</item>
+        <item>Anterior</item>
+    </string-array>
+    <string name="station_bishop_label">Altura de la presentación</string>
+    <string name="bishop_score_interpretation">Interpretación:</string>
+    <string name="bishop_score_interpretation_low">Puntuación de 5 o menos: Indica que el cuello uterino es desfavorable y es menos probable que la inducción tenga éxito. En estos casos, se pueden utilizar métodos de maduración cervical antes de la inducción para aumentar las posibilidades de un parto vaginal exitoso.</string>
+    <string name="bishop_score_interpretation_medium">Puntuación de 6–8: Sugiere que el cuello uterino es algo favorable y la inducción podría ser exitosa.</string>
+    <string name="bishop_score_interpretation_high">Puntuación de 9 o más: Indica que el cuello uterino es favorable para la inducción y es probable un parto vaginal.</string>
+</resources>
