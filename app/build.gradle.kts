@@ -7,12 +7,12 @@ plugins {
 
 android {
     namespace = "mx.mikeni.calculator"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "mx.mikeni.calculator"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 8
         versionName = "1.3.0"
 
@@ -43,7 +43,6 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
-    ndkVersion = "28.0.12433566 rc1"
 }
 
 dependencies {
